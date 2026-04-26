@@ -5,6 +5,6 @@ local function callback(frame, module)
 	string.Size = UDim2.new(1,0,1,0)
 	string.BackgroundTransparency = 1
 	string.Text = "Hello world!"
-  module.changeItemTheme(_G.darktheme, string)
+  	module.changeItemTheme(_G.darktheme, string)
 end
 return callback
