@@ -1,13 +1,15 @@
 {
-  "packages": {
-    "package": {
+  "packages": [
+    {
       "name": "Store Test",
       "id": "store-test",
       "owner": "Muser",
       "category": "System",
       "version": "v1.0.0",
       "icon": "485882402",
-      "path": "packages/store-test/main.lua"
+      "paths": {
+        "v1.0.0": "packages/store-test/main.lua"
+      }
     }
-  }
+  ]
 }
